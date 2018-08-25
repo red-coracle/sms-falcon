@@ -13,11 +13,11 @@ Still a work in progress.
 ## Requirements
 * Python 3.6+
 * Android phone with SMSSync
-* Installed signal-cli with system dbus
+* Installed signal-cli
 
 ## Installation
 * Create and activate virtual environment
 * `$ pip install -r requirements.txt`
-* `$ cp config-example.py config.py`
+* `$ cp config-example.py smsfalcon/config.py`
 * `$ python create_database.py`
 * `$ ./run.sh`
